@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Syed Mahamud - Developer Portfolio</title>
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Inter", sans-serif;
+            }
+
+            body {
+                background: #0b1220;
+                color: #e2e8f0;
+                line-height: 1.6;
+            }
+
+            .container {
+                width: 92%;
+                max-width: 1200px;
+                margin: auto;
+            }
+
+            /* HERO */
+            .hero {
+                text-align: center;
+                padding: 80px 20px 40px;
+            }
+
+            .hero h1 {
+                font-size: 42px;
+                font-weight: 800;
+                background: linear-gradient(90deg, #38bdf8, #6366f1);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .hero p {
+                margin-top: 10px;
+                color: #94a3b8;
+                font-size: 18px;
+            }
+
+            .sub {
+                margin-top: 10px;
+                color: #64748b;
+                font-size: 14px;
+            }
+
+            /* SECTION TITLE */
+            .section-title {
+                margin: 50px 0 20px;
+                font-size: 22px;
+                font-weight: 700;
+                border-left: 4px solid #38bdf8;
+                padding-left: 10px;
+            }
+
+            /* PROJECT CARD */
+            .project {
+                background: #111827;
+                border: 1px solid #1f2937;
+                border-radius: 14px;
+                padding: 25px;
+                margin-bottom: 25px;
+                transition: 0.3s;
+            }
+
+            .project:hover {
+                transform: translateY(-3px);
+                border-color: #38bdf8;
+            }
+
+            .project h2 {
+                color: #38bdf8;
+                margin-bottom: 5px;
+            }
+
+            .project a {
+                color: #60a5fa;
+                font-size: 13px;
+                text-decoration: none;
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                gap: 12px;
+                margin-top: 15px;
+            }
+
+            .box {
+                background: #0f172a;
+                padding: 15px;
+                border-radius: 10px;
+                border: 1px solid #1e293b;
+            }
+
+            .box h4 {
+                color: #93c5fd;
+                margin-bottom: 8px;
+                font-size: 14px;
+            }
+
+            .box ul {
+                padding-left: 18px;
+                font-size: 13px;
+                color: #cbd5e1;
+            }
+
+            .tag {
+                display: inline-block;
+                margin-top: 10px;
+                padding: 4px 10px;
+                font-size: 11px;
+                border-radius: 20px;
+                background: #1e293b;
+                color: #93c5fd;
+                margin-right: 5px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 40px 10px;
+                color: #64748b;
+                font-size: 13px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <!-- HERO -->
+            <div class="hero">
+                <h1>Syed Mahamud</h1>
+                <p>
+                    Full-Stack Software Engineer | Ruby on Rails | Node.js |
+                    Microservices | Angular
+                </p>
+                <div class="sub">
+                    Building scalable enterprise systems, SaaS platforms &
+                    real-time distributed systems
+                </div>
+            </div>
+
+            <!-- Lienexpos -->
+            <div class="section-title">
+                🔷 Lienexpos - Retail & Business Automation Platform
+            </div>
+
+            <div class="project">
+                <h2>Complete Enterprise ERP + POS + Inventory System</h2>
+                <a href="https://lienexpos.com" target="_blank"
+                    >https://lienexpos.com</a
+                >
+
+                <div class="grid">
+                    <div class="box">
+                        <h4>⚙️ Key Features</h4>
+                        <ul>
+                            <li>
+                                Multi-outlet POS system with real-time sales
+                                tracking
+                            </li>
+                            <li>
+                                Advanced inventory lifecycle & stock adjustment
+                                system
+                            </li>
+                            <li>Purchase & supplier management workflow</li>
+                            <li>
+                                HRM system with attendance & payroll integration
+                            </li>
+                            <li>
+                                E-commerce integration with centralized
+                                inventory sync
+                            </li>
+                            <li>Real-time reporting & analytics dashboards</li>
+                            <li>
+                                Mobile apps (Ionic) for sales, orders & tracking
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🏗️ Architecture & Role</h4>
+                        <ul>
+                            <li>
+                                Built backend using Ruby on Rails (REST API)
+                            </li>
+                            <li>
+                                Designed scalable database for high-volume
+                                transactions
+                            </li>
+                            <li>
+                                Integrated .NET POS system with central backend
+                            </li>
+                            <li>Optimized queries for performance & speed</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🚀 Impact</h4>
+                        <ul>
+                            <li>
+                                Unified multiple business operations into one
+                                system
+                            </li>
+                            <li>
+                                Reduced operational complexity significantly
+                            </li>
+                            <li>
+                                Improved real-time decision-making with
+                                analytics
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Digital School -->
+            <div class="section-title">
+                🔷 Digital School - Education Management System
+            </div>
+
+            <div class="project">
+                <h2>End-to-End School Digital Transformation Platform</h2>
+                <a href="https://digitalschoolit.solutions" target="_blank"
+                    >https://digitalschoolit.solutions</a
+                >
+
+                <div class="grid">
+                    <div class="box">
+                        <h4>⚙️ Key Features</h4>
+                        <ul>
+                            <li>Student Information System (SIS)</li>
+                            <li>
+                                Real-time attendance tracking (mobile-based)
+                            </li>
+                            <li>Exam & result automation system</li>
+                            <li>Homework & class scheduling system</li>
+                            <li>
+                                Role-based dashboards (Admin, Teacher, Student,
+                                Parent)
+                            </li>
+                            <li>Mobile app notifications system</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🏗️ Architecture & Role</h4>
+                        <ul>
+                            <li>Built full backend in Ruby on Rails</li>
+                            <li>Designed modular API system for mobile apps</li>
+                            <li>
+                                Scalable database architecture for academic data
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🚀 Impact</h4>
+                        <ul>
+                            <li>Fully digitized school operations</li>
+                            <li>Improved parent-teacher communication</li>
+                            <li>
+                                Reduced administrative workload significantly
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MyWelcomeApp -->
+            <div class="section-title">
+                🔷 MyWelcomeApp - Visitor Management System
+            </div>
+
+            <div class="project">
+                <h2>Enterprise Visitor & Security Access Platform</h2>
+                <a href="https://mywelcomeapp.com" target="_blank"
+                    >https://mywelcomeapp.com</a
+                >
+
+                <div class="grid">
+                    <div class="box">
+                        <h4>⚙️ Key Features</h4>
+                        <ul>
+                            <li>Visitor entry/exit tracking system</li>
+                            <li>Contractor management module</li>
+                            <li>Organizational department management</li>
+                            <li>Messaging & notification system</li>
+                            <li>Billing & service tracking (POI system)</li>
+                            <li>Role-based security control</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🏗️ Architecture & Role</h4>
+                        <ul>
+                            <li>Built backend using Ruby on Rails</li>
+                            <li>
+                                Integrated third-party payment & communication
+                                APIs
+                            </li>
+                            <li>Designed scalable modular architecture</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🚀 Impact</h4>
+                        <ul>
+                            <li>Improved enterprise security management</li>
+                            <li>Reduced manual entry errors</li>
+                            <li>Centralized visitor tracking system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MindStaq -->
+            <div class="section-title">
+                🔷 MindStaq - SaaS Project Management Platform
+            </div>
+
+            <div class="project">
+                <h2>Microservices-Based Collaboration System</h2>
+                <a href="https://app.mindstaq.com" target="_blank"
+                    >https://app.mindstaq.com</a
+                >
+
+                <div class="grid">
+                    <div class="box">
+                        <h4>⚙️ Key Features</h4>
+                        <ul>
+                            <li>Task & issue tracking system</li>
+                            <li>
+                                Meeting management (agenda, notes, discussion)
+                            </li>
+                            <li>Task linking inside meetings</li>
+                            <li>Reporting & performance tracking</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🏗️ Architecture & Role</h4>
+                        <ul>
+                            <li>Nx monorepo architecture</li>
+                            <li>Node.js microservices backend</li>
+                            <li>Angular frontend system</li>
+                            <li>Built meeting module independently</li>
+                            <li>Designed scalable APIs for collaboration</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🚀 Impact</h4>
+                        <ul>
+                            <li>Improved team productivity & accountability</li>
+                            <li>Converted meetings into actionable tasks</li>
+                            <li>Designed scalable SaaS foundation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SmartFinancial -->
+            <div class="section-title">
+                🔷 SmartFinancial - Insurance Marketplace
+            </div>
+
+            <div class="project">
+                <h2>High-Scale Real-Time Insurance Lead Platform</h2>
+                <a href="https://smartfinancial.com" target="_blank"
+                    >https://smartfinancial.com</a
+                >
+
+                <div class="grid">
+                    <div class="box">
+                        <h4>⚙️ Key Features</h4>
+                        <ul>
+                            <li>High-speed lead collection & validation</li>
+                            <li>Real-time bidding distribution system</li>
+                            <li>External buyer/provider integrations</li>
+                            <li>High-volume data processing engine</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🏗️ Architecture & Role</h4>
+                        <ul>
+                            <li>Node.js microservices API development</li>
+                            <li>Rails monorepo web integration</li>
+                            <li>Built core lead validation logic</li>
+                            <li>Designed real-time bidding engine</li>
+                            <li>Optimized system for high concurrency</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <h4>🚀 Impact</h4>
+                        <ul>
+                            <li>Handled large-scale real-time traffic</li>
+                            <li>Improved lead conversion efficiency</li>
+                            <li>Ensured zero-downtime processing system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                © 2026 Syed Mahamud — Full-Stack Developer Portfolio
+            </footer>
+        </div>
+    </body>
+</html>
